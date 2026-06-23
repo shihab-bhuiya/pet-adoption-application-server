@@ -85,6 +85,9 @@ async function run() {
       }
     });
 
+    // ----------------------------------------------------------------
+    // ----------------------------------------------------------------
+
     // GET: Fetch a Single Pet Profile by ID (For Details or Editing)
     app.get("/pets/:id", async (req, res) => {
       try {
